@@ -1,0 +1,6 @@
+const valuetype = ["Banana", 45, []];
+console.log(valuetype.length);
+console.log(valuetype.sort());
+console.log(typeof valuetype[0]);
+console.log(typeof valuetype[1]);
+console.log(typeof valuetype[2]);

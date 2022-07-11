@@ -1,0 +1,5 @@
+const numbers = [1, 4, 9, 16];
+function subtractTwo(numbers) {
+  return numbers.map((x) => x - 2);
+}
+console.log(subtractTwo);

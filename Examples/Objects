@@ -1,0 +1,6 @@
+const person = {
+  firstName: "Mathi",
+  lastName: "Lalitha",
+  email: "mlatha2896@gmail.com",
+};
+console.log(person.email);
