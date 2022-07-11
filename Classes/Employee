@@ -1,0 +1,18 @@
+class Employee {
+  constructor(firstName, lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+  fullname() {
+    return this.firstName + " " + this.lastName;
+  }
+  email() {
+    return this.firstName + "." + this.lastName + "@company.com";
+  }
+}
+let employee1 = new Employee("Thara", "Meenu");
+let employee2 = new Employee("Sreeja", "rani");
+let employee3 = new Employee("Madhu", "vanthi");
+console.log(employee1.fullname());
+console.log(employee3.email());
+console.log(employee2.firstName);

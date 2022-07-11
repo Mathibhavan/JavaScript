@@ -1,0 +1,21 @@
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  compareAge(other) {
+    if (this.age > other.age) {
+      return other.name + " is younger to me";
+    } else if (this.age < other.age) {
+      return other.name + " is elder to me";
+    } else {
+      return other.name + " is equal age to me";
+    }
+  }
+}
+let p1 = new Person("Lathika", 23);
+let p2 = new Person("Malavika", 25);
+let p3 = new Person("Shivika", 21);
+console.log(p1.compareAge(p2));
+console.log(p2.compareAge(p3));
+console.log(p3.compareAge(p1));

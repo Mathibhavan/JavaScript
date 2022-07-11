@@ -1,0 +1,21 @@
+class footballplayer {
+  constructor(nam, age, height, weight) {
+    this.nam = nam;
+    this.age = age;
+    this.height = height;
+    this.weight = weight;
+  }
+  Age() {
+    return this.nam + " is " + this.age;
+  }
+  Height() {
+    return this.nam + " is " + this.height + "cm";
+  }
+  Weight() {
+    return this.nam + " is " + this.weight + "kg";
+  }
+}
+const player = new footballplayer("Mathi", 26, 158, 54);
+console.log(player.Age());
+console.log(player.Height());
+console.log(player.Weight());
