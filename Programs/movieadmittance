@@ -1,0 +1,7 @@
+var age = window.prompt("Enter your age");
+var supervised = window.prompt("Enter yes/no");
+function admittance(age, supervised) {
+  if (age <= 15 && (supervised = yes)) return true;
+  else if (age >= 15) return true;
+}
+console.log(admittance());

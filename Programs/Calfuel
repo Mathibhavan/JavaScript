@@ -1,0 +1,4 @@
+function calfuel(n) {
+  return n * 10;
+}
+console.log(calfuel(23.5));

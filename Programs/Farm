@@ -1,0 +1,13 @@
+let h = 5;
+let c = 7;
+let p = 8;
+function hen() {
+  return h * 2;
+}
+function cow() {
+  return c * 4;
+}
+function pig() {
+  return p * 4;
+}
+console.log(hen() + cow() + pig());

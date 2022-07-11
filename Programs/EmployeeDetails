@@ -1,0 +1,7 @@
+class Employee{
+    constructor(ID,name){
+        this.ID=ID;
+        this.name=name;
+    }
+    
+}

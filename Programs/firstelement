@@ -1,0 +1,6 @@
+const arr = [12, 65, 98, 32, 45];
+function getfirstelement() {
+  let array = arr[1];
+  return array;
+}
+console.log(getfirstelement());

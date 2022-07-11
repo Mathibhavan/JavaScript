@@ -1,0 +1,5 @@
+let arr = [12, 65, 98, 32, 45];
+for (i = 0; i <= arr.length; i++) {
+  let n = arr[i] + 1;
+  console.log(n);
+}

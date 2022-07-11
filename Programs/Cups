@@ -1,0 +1,4 @@
+var cup = 6;
+let freecups = parseInt(cup / 6);
+let total = freecups + cup;
+console.log(total);

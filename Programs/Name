@@ -1,0 +1,15 @@
+class Name {
+  constructor(fname, lname) {
+    this.fname = fname;
+    this.lname = lname;
+  }
+  fullname() {
+    return this.fname + " " + this.lname;
+  }
+  initials() {
+    return this.fname.charAt(0) + "." + this.lname.charAt(0);
+  }
+}
+var nam = new Name("Ram", "Priya");
+console.log(nam.fullname());
+console.log(nam.initials());
